@@ -31,6 +31,7 @@ export const GuideItem: FC<GuideItemProps> = ({
         flexWrap="nowrap"
         spacing={0}
         sx={{
+          height: "100%",
           flexDirection: "row",
           [ps]: { flexDirection: "column" },
           [tl]: { flexDirection: "row" },
@@ -63,7 +64,7 @@ export const GuideItem: FC<GuideItemProps> = ({
           item
           container
           direction="column"
-          sx={{ backgroundColor: lightGrey, mt: 0, p: 4 }}
+          sx={{ height: "100%", backgroundColor: lightGrey, mt: 0, p: 4 }}
         >
           <Grid item>
             <Box
