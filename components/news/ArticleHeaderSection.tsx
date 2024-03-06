@@ -117,7 +117,7 @@ export const ArticleHeaderSection: FC<PropsWithChildren> = ({ children }) => {
           sx={{
             height: "100%",
             width: "100%",
-            maxWidth: 710,
+            maxWidth: 900,
             margin: "0 auto",
             backgroundImage: `url(${image.src})`,
             backgroundPosition: "center",
