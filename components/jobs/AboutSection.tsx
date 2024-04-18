@@ -68,16 +68,11 @@ export const AboutSection: FC = () => {
             About <strong>OpenArchive</strong>
           </Box>
           <Box sx={bodyLarge}>
-            OpenArchive is an experienced research and development nonprofit
-            organization dedicated to the ethical collection and long-term
-            preservation of mobile media. We work to promote freedom of
-            expression and privacy on the internet by creating tools, guides,
-            and workshops to protect human rights defenders and their media. Our
-            work centers both large human rights focused NGOs as well as
-            activist communities, researchers, designers, developers, academic
-            institutions, and advocates to create and share best practices in
-            order to advance secure, long-term mobile media preservation and
-            internet freedom for marginalized and targeted communities.
+            OpenArchive is a research and development nonprofit
+            dedicated to the ethical collection and long-term
+            preservation of mobile media. We work to protect media freedom by creating tools, guides,
+            and hosting training workshops to protect human rights defenders and their media. Our
+            work centers human rights organizations, both large and small.
           </Box>
         </Grid>
       </Grid>
