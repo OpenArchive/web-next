@@ -115,6 +115,12 @@
     "description": "Human rights archivists rely on encryption to protect at-risk communities, safeguard sensitive media, maintain data integrity, control access, and facilitate secure storage and transfer.",
     "image": "GlobalEncryptionDay23/1.png"
   },
+  "/news/harm-reduction-for-historys-first-responders": {
+    "path": "/news/harm-reduction-for-historys-first-responders",
+    "title": "Harm Reduction for History’s First Responders - A Review of the Emerging Evidentiary Media Archiving Field",
+    "description": "By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou",
+    "image": "Harm_Reduction_For_Historys_First_Responders/1.png"
+  },
   "/news/hello-mobilized-world": {
     "path": "/news/hello-mobilized-world",
     "title": "Why OpenArchive?",
