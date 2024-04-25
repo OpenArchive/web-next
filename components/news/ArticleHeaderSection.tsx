@@ -92,8 +92,10 @@ export const ArticleHeaderSection: FC<PropsWithChildren> = ({ children }) => {
                 <Box sx={{ color: turquoise }}>{category}</Box>
               </Grid>
             </Grid>
-            <Grid item>{title}</Grid>
-            <Grid item sx={{ width: "75%" }}>
+            <Grid item xs={12}>
+              {title}
+            </Grid>
+            <Grid item xs={12}>
               <Box
                 sx={{
                   "& p": bodyLarge,
@@ -108,16 +110,17 @@ export const ArticleHeaderSection: FC<PropsWithChildren> = ({ children }) => {
       <Box
         sx={{
           width: "100%",
-          height: 300,
+          height: 500,
           background: `linear-gradient(to bottom, ${lightGrey} 50%, ${white} 50%)`,
           p: 3,
+          pb: 0,
         }}
       >
         <Box
           sx={{
             height: "100%",
             width: "100%",
-            maxWidth: 900,
+            maxWidth: 1000,
             margin: "0 auto",
             backgroundImage: `url(${image.src})`,
             backgroundPosition: "center",
