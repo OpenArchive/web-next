@@ -11,7 +11,7 @@ export const ContentSection: FC<PropsWithChildren> = ({ children }) => {
     <PageSection backgroundColor={white}>
       <Box
         sx={{
-          maxWidth: "1000px",
+          width: "100%",
           margin: "0 auto",
           "& p": bodyLarge,
           li: { ...bodyLarge, mb: 1 },
