@@ -110,7 +110,7 @@ export const ArticleHeaderSection: FC<PropsWithChildren> = ({ children }) => {
       <Box
         sx={{
           width: "100%",
-          height: 500,
+          height: 375,
           background: `linear-gradient(to bottom, ${lightGrey} 50%, ${white} 50%)`,
           pb: 0,
         }}
