@@ -53,6 +53,11 @@
     "description": "Anyone with a phone can expose injustice. OpenArchive helps history's first responders safely store, verify, and share critical evidence.",
     "image": "main-page-1.png"
   },
+  "/jobs/content-creator": {
+    "path": "/jobs/content-creator",
+    "title": "Social Media Content Creator",
+    "description": "OpenArchive seeks a Social Media Content Creator to be the voice of our social media presence."
+  },
   "/jobs/dod": {
     "path": "/jobs/dod",
     "title": "Development and Operations Director",
