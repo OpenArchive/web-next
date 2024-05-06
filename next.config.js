@@ -49,6 +49,11 @@ const config = withMDX({
         destination: "/programs/our-users",
         permanent: true,
       },
+      {
+        source: "/save/",
+        destination: "/save",
+        permanent: true,
+      },
     ];
   },
 });
