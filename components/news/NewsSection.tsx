@@ -20,40 +20,37 @@ export const NewsSection: FC<NewsSectionProps> = ({ pages }) => {
   /* eslint-enable no-param-reassign */
   const categories = Object.keys(allCategories).sort();
   const filteredPages = pages.filter(
-    (page) => !filter || page.category === filter
+    (page) => !filter || page.category === filter,
   );
 
   return (
     <PageSection backgroundColor={lightGrey}>
-      <Grid item>
-        <Box sx={{ pb: 6 }}>
-          <Grid container direction="row" justifyContent="center" spacing={3}>
-            {categories.map((category) => (
-              <Grid item key={category}>
-                <FilledButton
-                  backgroundColor={filter === category ? turquoise : white}
-                  textColor={black}
-                  onClick={() =>
-                    setFilter(filter === category ? null : category)
-                  }
-                >
-                  {category}
-                </FilledButton>
-              </Grid>
-            ))}
-          </Grid>
-        </Box>
+      <Grid container direction="column" alignItems="center">
+        <Grid item>
+          <Box sx={{ pb: 6 }}>
+            <Grid container direction="row" justifyContent="center" spacing={3}>
+              {categories.map((category) => (
+                <Grid item key={category}>
+                  <FilledButton
+                    backgroundColor={filter === category ? turquoise : white}
+                    textColor={black}
+                    onClick={() =>
+                      setFilter(filter === category ? null : category)
+                    }
+                  >
+                    {category}
+                  </FilledButton>
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
+        </Grid>
       </Grid>
-      <Box
-        display="grid"
-        gridAutoRows="1fr"
-        gap={6}
-        sx={{ a: { textDecoration: "none" } }}
-      >
+      <Grid item container spacing={4}>
         {filteredPages.map((page: any) => (
           <NewsItem key={page.path} {...page} />
         ))}
-      </Box>
+      </Grid>
     </PageSection>
   );
 };
