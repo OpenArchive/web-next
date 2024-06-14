@@ -121,7 +121,16 @@ export const Footer: FC = () => {
           >
             <Grid item>
               <Box
-                sx={{ width: 200, [ps]: { width: 150 }, [ts]: { width: 200 } }}
+                sx={{
+                  width: 200,
+                  [ps]: { width: 150 },
+                  [ts]: { width: 200 },
+                  transition: "transform 0.3s ease",
+                  "&:hover": { transform: "scale(1.07)" },
+                  a: {
+                    "&:hover": { background: "transparent !important" },
+                  },
+                }}
               >
                 <Link href="/">
                   <Image
@@ -349,7 +358,7 @@ export const Footer: FC = () => {
                 <IconLink
                   image={linkedin}
                   size={socialIconSize}
-                  url="https://linkedin.com/company/open-archive" 
+                  url="https://linkedin.com/company/open-archive"
                   alt="LinkedIn logo"
                 />
               </Grid>
