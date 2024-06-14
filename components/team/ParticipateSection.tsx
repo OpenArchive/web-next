@@ -38,6 +38,7 @@ export const ParticipateSection: FC<PropsWithChildren> = ({ children }) => {
               "&:hover": {
                 backgroundColor: darkBurgundy,
               },
+              "> span": { "&:hover": { backgroundColor: darkBurgundy } },
             },
           }}
         >
