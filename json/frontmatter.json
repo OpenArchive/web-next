@@ -53,11 +53,6 @@
     "description": "Anyone with a phone can expose injustice. OpenArchive helps history's first responders safely store, verify, and share critical evidence.",
     "image": "main-page-1.png"
   },
-  "/jobs/dod": {
-    "path": "/jobs/dod",
-    "title": "Development and Operations Director",
-    "description": "To lead OpenArchive’s operational and administrative success, we’re seeking a Development and Operations Director who will lead our team’s operations, administrative needs, project management, and fundraising portfolio."
-  },
   "/jobs": {
     "path": "/jobs"
   },
