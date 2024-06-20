@@ -46,9 +46,15 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
         >
           <Box
             sx={{
-              a: {
+              span: {
                 "&:hover": {
-                  background: "none",
+                  backgroundColor: "white",
+                  border: 0,
+                },
+              },
+              a: { mr: 2 },
+              img: {
+                "&:hover": {
                   filter:
                     "brightness(0) saturate(100%) invert(47%) sepia(82%) saturate(4262%) hue-rotate(155deg) brightness(99%) contrast(101%)",
                 },
@@ -56,7 +62,6 @@ export const ContactSection: FC<PropsWithChildren> = ({ children }) => {
               "> p": { ...bodyLarge, mb: 6 },
               "> h6": { mb: 4 },
               pt: 6,
-              img: { pr: "10px !important" },
             }}
           >
             {rest}

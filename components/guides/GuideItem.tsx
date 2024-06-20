@@ -24,70 +24,81 @@ export const GuideItem: FC<GuideItemProps> = ({
   const image = require(`public/images/${imageName}`).default;
 
   return (
-    <Link href={path}>
-      <Grid
-        item
-        container
-        flexWrap="nowrap"
-        spacing={0}
+    <Grid item>
+      <Box
         sx={{
-          flexDirection: "row",
-          [ps]: { flexDirection: "column" },
-          [tl]: { flexDirection: "row" },
-          cursor: "pointer",
-          ":hover": {
-            ".teaserImage": {
-              background: `linear-gradient(to top, ${turquoise}bb, ${turquoise}bb), url(${image.src}) center / cover`,
-            },
+          overflow: "hidden",
+          [ps]: { height: "auto" },
+          [tl]: { height: "350px" },
+          "> a": {
+            textDecoration: "none",
           },
         }}
       >
-        <Grid item>
-          <Box
-            className="teaserImage"
+        <Link href={path}>
+          <Grid
+            container
+            flexWrap="nowrap"
+            spacing={0}
             sx={{
-              height: "100%",
-              minHeight: 200,
-              width: 500,
-              [ps]: { width: "100%" },
-              [tl]: { width: 500 },
-              border: `1px solid ${lightGrey}`,
-              backgroundImage: `url(${image.src})`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
+              flexDirection: "row",
+              [ps]: { flexDirection: "column" },
+              [tl]: { flexDirection: "row" },
+              cursor: "pointer",
+              ":hover": {
+                ".teaserImage": {
+                  background: `linear-gradient(to top, ${turquoise}bb, ${turquoise}bb), url(${image.src}) center / cover`,
+                },
+              },
             }}
-          />
-        </Grid>
-        <Grid
-          item
-          container
-          direction="column"
-          sx={{ backgroundColor: lightGrey, mt: 0, p: 4 }}
-        >
-          <Grid item>
-            <Box
-              sx={{
-                ...bodyLarge,
-                color: darkGrey,
-                mt: 2,
-              }}
+          >
+            <Grid item>
+              <Box
+                className="teaserImage"
+                sx={{
+                  height: "350px",
+                  width: 500,
+                  [ps]: { width: "100%", height: "250px" },
+                  [tl]: { width: 500, height: "350px" },
+                  border: `1px solid ${lightGrey}`,
+                  backgroundImage: `url(${image.src})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              />
+            </Grid>
+            <Grid
+              item
+              container
+              direction="column"
+              sx={{ backgroundColor: lightGrey, mt: 0, p: 4 }}
             >
-              {date}
-            </Box>
+              <Grid item>
+                <Box
+                  sx={{
+                    ...bodyLarge,
+                    color: darkGrey,
+                    mt: 2,
+                  }}
+                >
+                  {date}
+                </Box>
+              </Grid>
+              <Grid item>
+                <Box component="h5" sx={h5}>
+                  {title}
+                </Box>
+              </Grid>
+              <Grid item>
+                <Box component="p" sx={bodyLarge}>
+                  {description}
+                </Box>
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Box component="h5" sx={h5}>
-              {title}
-            </Box>
-          </Grid>
-          <Grid item>
-            <Box component="p" sx={bodyLarge}>
-              {description}
-            </Box>
-          </Grid>
-        </Grid>
-      </Grid>
-    </Link>
+        </Link>
+      </Box>
+    </Grid>
   );
 };
