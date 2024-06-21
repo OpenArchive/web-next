@@ -15,6 +15,7 @@ const withMDX = mdx({
 
 const config = withMDX({
   reactStrictMode: true,
+  trailingSlash: false,
   webpack: (conf) => {
     // eslint-disable-next-line no-param-reassign
     conf.resolve.alias.fs = false;
