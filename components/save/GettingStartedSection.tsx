@@ -29,9 +29,7 @@ export const GettingStartedSection: FC<PropsWithChildren> = ({ children }) => {
             direction="column"
             item
             sx={{
-              width: "50%",
-              [ps]: { width: "100%" },
-              [tl]: { width: "50%" },
+              width: "100%",
             }}
           >
             {title}
@@ -42,9 +40,7 @@ export const GettingStartedSection: FC<PropsWithChildren> = ({ children }) => {
             direction="column"
             justifyContent="center"
             sx={{
-              width: "50%",
-              [ps]: { width: "100%" },
-              [tl]: { width: "50%" },
+              width: "100%",
             }}
           >
             <Grid item>
@@ -52,9 +48,8 @@ export const GettingStartedSection: FC<PropsWithChildren> = ({ children }) => {
                 sx={{
                   "> p": {
                     ...bodyLarge,
-                    textAlign: "right",
-                    [ps]: { textAlign: "left" },
-                    [tl]: { textAlign: "right" },
+                    fontWeight: "bold",
+                    textAlign: "left",
                     maxWidth: "90%",
                     mt: 2,
                   },
@@ -80,11 +75,11 @@ export const GettingStartedSection: FC<PropsWithChildren> = ({ children }) => {
             },
             ".step::before": {
               ...bodyLarge,
-              content: "counter(stepCounter, decimal-leading-zero)",
+              content: '"Step " counter(stepCounter) ":"',
               color: turquoise,
               fontWeight: "bold",
               display: "flex",
-              pl: "10px",
+              pl: "3px",
               pt: "9px",
             },
             // a: outlinedButton,

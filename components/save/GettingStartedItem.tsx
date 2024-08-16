@@ -1,10 +1,8 @@
 import { FC, PropsWithChildren } from "react";
-import { useTranslate } from "react-polyglot";
 import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints } from "styles/theme";
 
 export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
-  const t = useTranslate();
   const { body } = typography;
   const { white } = colors;
   const { ps, tl } = breakpoints;
@@ -29,9 +27,7 @@ export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
             <Box className="step" />
           </Grid>
           <Grid item>
-            <Box component="p" sx={{ ...body }}>
-              {t("step")}:
-            </Box>
+            <Box component="p" sx={{ ...body }} />
           </Grid>
         </Grid>
         <Grid item>
