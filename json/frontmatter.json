@@ -56,6 +56,11 @@
   "/jobs": {
     "path": "/jobs"
   },
+  "/jobs/tech-manager": {
+    "path": "/jobs/tech-manager",
+    "title": "Technology Manager",
+    "description": "OpenArchive seeks a Technology Manager to write technical documentation, support code, and manage our overall technical effort, including supporting the Technology Director’s work to develop and implement our secure mobile archiving app."
+  },
   "/news/IraqiNetwork-partnership": {
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",
