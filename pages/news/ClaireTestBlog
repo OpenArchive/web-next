@@ -1,3 +1,78 @@
+
+---
+title: TBD
+description: By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou 
+date: 04/23/24
+category: Blogs
+image: Harm_Reduction_For_Historys_First_Responders/1.png
+---
+
+import { ArticleHeaderSection } from "components/news/ArticleHeaderSection";
+import { ContentSection } from "components/news/ContentSection";
+
+<ArticleHeaderSection>
+
+![](Harm_Reduction_For_Historys_First_Responders/1.png)
+
+{frontmatter.date}
+
+{frontmatter.category}
+
+## TITLE
+### SUBTITLE
+By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou 
+
+
+</ArticleHeaderSection>
+<ContentSection>
+
+At OpenArchive, we work to create a more just, equitable, and sustainable media ecosystem where people's history is the primary history. 
+
+We do this by 
+1. partnering with Decentralized Archivist Communities (DACs) to jointly support decentralization, archiving, and preservation efforts to ensure human rights documentation is safe and accessible in the long term; 
+
+2. building responsive tools like our Save app which helps eyewitnesses preserve, protect, authenticate and amplify crucial records of human rights abuses; 
+
+3. developing best practice guides on preserving evidence and combatting disinformation; and 4) conducting co-research with at-risk communities around the world. 
+
+Our [DAC Program](https://open-archive.org/programs) is one of the key ways we interact with communities that are documenting and preserving evidentiary media. Working with a community manager with deep regional knowledge, we provide needs assessments, security and archival workshops, assistance with internal documentation and workflows, ***Save*** implementation and integration with organizations’ backend archives, and funding to support their activities and archives.
+
+Through the collaboration, we gain valuable insights into the needs, frustrations, workflows, limitations, and threats our user communities face. This research allows us to adapt and update the ***Save*** app and customize workshops, trainings, and guides. We publish our research findings to share with the broader community of archival and human rights practitioners and scholars.
+
+Most importantly, the communities we work with can grow or strengthen their archiving and documentation processes.
+
+
+##### A Look at Cohort 1
+
+
+OpenArchive is fortunate to collaborate with inspiring Decentralized Archivist Communities (DACs) who are actively defending human rights worldwide. In 2023, we had seven DACs from Eastern Europe, MENA, the United States of America, and Latin America who work to document violations 
+
+and safeguard evidence despite escalating challenges and human rights abuses.
+
+---IMAGE OF MAP---
+
+###### Program Structure
+
+The DAC program framework is customized to match DAC partners’ most pressing needs and meet communities where they are at with their comfortability with technology and their specific threat landscape. 
+
+The program generally follows three phases of work. 
+
+---IMAGE OF CANVA1----
+
+###### Phase 1: Co-Research
+
+
+During phase one, OpenArchive meets with the DAC manager and other key members of the DAC organization to get a preliminary understanding of who they are, who they work with, and their current workflow for managing and preserving evidentiary media. 
+OpenArchive works with the DAC to co-develop a needs assessment survey to capture community members' strengths, goals, tasks, tools, technical skill levels and the environment and threat landscape in which they operate. This information will allow us to customize the support and training plans we provide for the subsequent phases of the partnership. 
+Then, the DAC manager works to distribute the needs assessment survey with their network in their country/region.
+
+
+
+
+
+
+
+---OLD POST
 ---
 title: TBD
 description: By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou 
@@ -39,7 +114,6 @@ Through the collaboration, we gain valuable insights into the needs, frustration
 
 Most importantly, the communities we work with can grow or strengthen their archiving and documentation processes.
 
-------------PRIOR POST FOR CLAIRE'S REVIEW
 
 ###### Working with History’s First Responders - OpenArchive’s Approach
 <br />
