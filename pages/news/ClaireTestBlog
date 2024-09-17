@@ -57,20 +57,72 @@ The DAC program framework is customized to match DAC partners’ most pressing n
 
 The program generally follows three phases of work. 
 
----IMAGE OF CANVA1----
+![](DACCohortOne_1.png)
 
 ###### Phase 1: Co-Research
-
 
 During phase one, OpenArchive meets with the DAC manager and other key members of the DAC organization to get a preliminary understanding of who they are, who they work with, and their current workflow for managing and preserving evidentiary media. 
 OpenArchive works with the DAC to co-develop a needs assessment survey to capture community members' strengths, goals, tasks, tools, technical skill levels and the environment and threat landscape in which they operate. This information will allow us to customize the support and training plans we provide for the subsequent phases of the partnership. 
 Then, the DAC manager works to distribute the needs assessment survey with their network in their country/region.
 
+###### Phase 2: Research Analysis and Publication
+
+In phase two, the DAC partner and OpenArchive review and analyze survey responses.
+
+Further needs assessment research is sometimes required, including follow-up surveys and further interviews. 
+
+During the research analysis phase, we carefully assess survey respondents’ threats, needs, technical capacities, and current archival workflows through user persona building and other research methods outlined in the [human-rights-centered-design (HRCD) methodology](https://www.humanrightscentered.design/). This allows us to gain deeper insight into the structural harms that the DAC and its partner organizations experience and enables us to adapt our tools to better protect them and their media.
+User personas are modeled after a particular individual or role but also incorporate fictional aspects that researchers use to create archetypes that describe the behavior patterns, goals, skills, attitudes, background information, and the environment in which the role operates. This HRCD strategy is an intersectional, thorough, and secure approach to developing a robust archetype representing key characteristics relevant to the role.
+
+After research collection is concluded, and the findings have been analyzed, a research memo and personas are published on OpenArchive’s website. We also meet with the DAC to review key recommendations, discuss the next phase, including training plans, and see where else we can support them in their work. 
+
+###### Phase 3: Holding Community Workshops & Sharing Feedback
+
+Key personnel from DAC attend a train-the-trainer session led by OpenArchive. These train-the-trainer sessions are an opportunity for us to go through their primary risks, what Save does and doesn’t do, and how the Save app can benefit their community with a small group.
+Over two hours, we talk them through a live demo of the app and include plenty of time for questions and answers and any technical troubleshooting they need. After the session, it is our goal that attendees feel equipped to hold workshops on the app independently with their larger community. 
+DAC partners also assist with translations of guides or other materials if needed, and host larger community workshops on how to use Save. Importantly, they also collect feedback on usability and features from the community, so OpenArchive can continue to improve the app. 
+The partnership continues even after the community workshops are completed. OpenArchive remains available to answer any questions and provide support when needed. 
+
+##### What our DAC partners had to say
+
+![](DACCohortOne_2.png)
+
+![](DACCohortOne_3.png)
+
+![](DACCohortOne_4.png)
+
+![](DACCohortOne_5.png)
+
+##### What our DAC partners had to say
+
+We have grouped the key challenges and threats that the communities face into four buckets: physical security, digital security, access to information, and technical/resource restraints. 
+
+Some areas, like Ukraine, were primarily concerned with technical and resource restraints. In contrast, other places like Cuba and Ecuador were more focused on the physical dangers they experienced in the course of their work. 
+
+---ADD IN BAR GRAPHIC TEAL---
+
+Commonly identified threats: device confiscation/loss of media; privacy and digital security; physical security for themselves, work contacts or loved ones, imprisonment, and accessing public information. 
+
+Our top recommendations: integrating workflow tools like Save to help manage and preserve their evidence, using VPNs and encrypted messaging apps, investing in resources that boost internet connectivity, and technical training that focuses on digital security. 
+
+---ADD IN ANGELICA BOXES GRAPHIC---
+
+---ADD IN BAR GRAPHIC BLACK AND WHITE---
 
 
+##### What’s Next for OpenArchive and the DAC Program
 
+Through several phases of co-research, OpenArchive learned more about the unique contexts our DACs work in and gained a better understanding of their needs. 
 
+Using findings from our co-research, we will continue to customize workshops and trainings and implement usability enhancements to our [Save app]. Over the next couple of years, we will also be adding several security features, including end-to-end encryption, to Save to better protect our users and their media as they work to document, preserve, and share evidence of human rights abuses. 
 
+Contact us at info@open-archive.org to learn more about Save training opportunities. 
+
+In the next few months, we will be publishing a research paper on the benefits and drawbacks of using decentralized web storage in repressive regions. This paper builds on our previous two blog posts on Mapping the Decentralized Web Ecosystem and Harm Reduction for History’s First Responders. If you are interested in keeping up with our work, please stay in touch!
+
+##### Contact Us
+
+![](DACCohortOne_6.png)
 
 ---OLD POST
 ---
