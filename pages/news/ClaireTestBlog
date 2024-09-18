@@ -1,8 +1,8 @@
 
 ---
 title: TBD
-description: By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou 
-date: 04/23/24
+description: By Natalie Cadranel, Lauren Salim, and Claire August
+date: xx/xx/24
 category: Blogs
 image: Harm_Reduction_For_Historys_First_Responders/1.png
 ---
@@ -20,7 +20,7 @@ import { ContentSection } from "components/news/ContentSection";
 
 ## TITLE
 ### SUBTITLE
-By Natalie Cadranel, Lauren Salim, and Chrystalleni Loizidou 
+By Natalie Cadranel, Lauren Salim, and Claire August
 
 
 </ArticleHeaderSection>
@@ -31,13 +31,13 @@ At OpenArchive, we work to create a more just, equitable, and sustainable media 
 We do this by 
 1. partnering with Decentralized Archivist Communities (DACs) to jointly support decentralization, archiving, and preservation efforts to ensure human rights documentation is safe and accessible in the long term; 
 
-2. building responsive tools like our Save app which helps eyewitnesses preserve, protect, authenticate and amplify crucial records of human rights abuses; 
+2. building responsive tools like our **_Save_** app which helps eyewitnesses preserve, protect, authenticate and amplify crucial records of human rights abuses; 
 
 3. developing best practice guides on preserving evidence and combatting disinformation; and 4) conducting co-research with at-risk communities around the world. 
 
-Our [DAC Program](https://open-archive.org/programs) is one of the key ways we interact with communities that are documenting and preserving evidentiary media. Working with a community manager with deep regional knowledge, we provide needs assessments, security and archival workshops, assistance with internal documentation and workflows, ***Save*** implementation and integration with organizations’ backend archives, and funding to support their activities and archives.
+Our [DAC Program](https://open-archive.org/programs) is one of the key ways we interact with communities that are documenting and preserving evidentiary media. Working with a community manager with deep regional knowledge, we provide needs assessments, security and archival workshops, assistance with internal documentation and workflows, *****_Save_***** implementation and integration with organizations’ backend archives, and funding to support their activities and archives.
 
-Through the collaboration, we gain valuable insights into the needs, frustrations, workflows, limitations, and threats our user communities face. This research allows us to adapt and update the ***Save*** app and customize workshops, trainings, and guides. We publish our research findings to share with the broader community of archival and human rights practitioners and scholars.
+Through the collaboration, we gain valuable insights into the needs, frustrations, workflows, limitations, and threats our user communities face. This research allows us to adapt and update the *****_Save_***** app and customize workshops, trainings, and guides. We publish our research findings to share with the broader community of archival and human rights practitioners and scholars.
 
 Most importantly, the communities we work with can grow or strengthen their archiving and documentation processes.
 
@@ -78,9 +78,9 @@ After research collection is concluded, and the findings have been analyzed, a r
 
 ###### Phase 3: Holding Community Workshops & Sharing Feedback
 
-Key personnel from DAC attend a train-the-trainer session led by OpenArchive. These train-the-trainer sessions are an opportunity for us to go through their primary risks, what Save does and doesn’t do, and how the Save app can benefit their community with a small group.
+Key personnel from DAC attend a train-the-trainer session led by OpenArchive. These train-the-trainer sessions are an opportunity for us to go through their primary risks, what **_Save_** does and doesn’t do, and how the **_Save_** app can benefit their community with a small group.
 Over two hours, we talk them through a live demo of the app and include plenty of time for questions and answers and any technical troubleshooting they need. After the session, it is our goal that attendees feel equipped to hold workshops on the app independently with their larger community. 
-DAC partners also assist with translations of guides or other materials if needed, and host larger community workshops on how to use Save. Importantly, they also collect feedback on usability and features from the community, so OpenArchive can continue to improve the app. 
+DAC partners also assist with translations of guides or other materials if needed, and host larger community workshops on how to use **_Save_**. Importantly, they also collect feedback on usability and features from the community, so OpenArchive can continue to improve the app. 
 The partnership continues even after the community workshops are completed. OpenArchive remains available to answer any questions and provide support when needed. 
 
 ##### What our DAC partners had to say
@@ -103,7 +103,7 @@ Some areas, like Ukraine, were primarily concerned with technical and resource r
 
 Commonly identified threats: device confiscation/loss of media; privacy and digital security; physical security for themselves, work contacts or loved ones, imprisonment, and accessing public information. 
 
-Our top recommendations: integrating workflow tools like Save to help manage and preserve their evidence, using VPNs and encrypted messaging apps, investing in resources that boost internet connectivity, and technical training that focuses on digital security. 
+Our top recommendations: integrating workflow tools like **_Save_** to help manage and preserve their evidence, using VPNs and encrypted messaging apps, investing in resources that boost internet connectivity, and technical training that focuses on digital security. 
 
 ![](CohortOneTable_1)
 
@@ -126,9 +126,9 @@ Our top recommendations: integrating workflow tools like Save to help manage and
 
 Through several phases of co-research, OpenArchive learned more about the unique contexts our DACs work in and gained a better understanding of their needs. 
 
-Using findings from our co-research, we will continue to customize workshops and trainings and implement usability enhancements to our [Save app]. Over the next couple of years, we will also be adding several security features, including end-to-end encryption, to Save to better protect our users and their media as they work to document, preserve, and share evidence of human rights abuses. 
+Using findings from our co-research, we will continue to customize workshops and trainings and implement usability enhancements to our [**_Save_** app]. Over the next couple of years, we will also be adding several security features, including end-to-end encryption, to **_Save_** to better protect our users and their media as they work to document, preserve, and share evidence of human rights abuses. 
 
-Contact us at info@open-archive.org to learn more about Save training opportunities. 
+Contact us at info@open-archive.org to learn more about **_Save_** training opportunities. 
 
 In the next few months, we will be publishing a research paper on the benefits and drawbacks of using decentralized web storage in repressive regions. This paper builds on our previous two blog posts on Mapping the Decentralized Web Ecosystem and Harm Reduction for History’s First Responders. If you are interested in keeping up with our work, please stay in touch!
 
@@ -198,13 +198,13 @@ At OpenArchive, we work to create a more just, equitable, and sustainable media 
 We do this by 
 1. partnering with Decentralized Archivist Communities (DACs) to jointly support decentralization, archiving, and preservation efforts to ensure human rights documentation is safe and accessible in the long term; 
 
-2. building responsive tools like our Save app which helps eyewitnesses preserve, protect, authenticate and amplify crucial records of human rights abuses; 
+2. building responsive tools like our **_Save_** app which helps eyewitnesses preserve, protect, authenticate and amplify crucial records of human rights abuses; 
 
 3. developing best practice guides on preserving evidence and combatting disinformation; and 4) conducting co-research with at-risk communities around the world. 
 
-Our [DAC Program](https://open-archive.org/programs) is one of the key ways we interact with communities that are documenting and preserving evidentiary media. Working with a community manager with deep regional knowledge, we provide needs assessments, security and archival workshops, assistance with internal documentation and workflows, ***Save*** implementation and integration with organizations’ backend archives, and funding to support their activities and archives.
+Our [DAC Program](https://open-archive.org/programs) is one of the key ways we interact with communities that are documenting and preserving evidentiary media. Working with a community manager with deep regional knowledge, we provide needs assessments, security and archival workshops, assistance with internal documentation and workflows, *****_Save_***** implementation and integration with organizations’ backend archives, and funding to support their activities and archives.
 
-Through the collaboration, we gain valuable insights into the needs, frustrations, workflows, limitations, and threats our user communities face. This research allows us to adapt and update the ***Save*** app and customize workshops, trainings, and guides. We publish our research findings to share with the broader community of archival and human rights practitioners and scholars.
+Through the collaboration, we gain valuable insights into the needs, frustrations, workflows, limitations, and threats our user communities face. This research allows us to adapt and update the *****_Save_***** app and customize workshops, trainings, and guides. We publish our research findings to share with the broader community of archival and human rights practitioners and scholars.
 
 Most importantly, the communities we work with can grow or strengthen their archiving and documentation processes.
 
@@ -215,7 +215,7 @@ We now have better ways to handle situations where both those documenting injust
 
 - Partnering with [Decentralized Archivist Communities](https://open-archive.org/programs/our-users) (DACs) to jointly support their decentralized archiving and preservation efforts to ensure their human rights documentation is safe and accessible in the long term. 
 - Conducting co-research with DACs to threat model and create personas/journey maps in order to help them safely document their movements around the world.
-- Building responsive tools like our [_**Save**_ app](https://open-archive.org/save), which helps eyewitnesses share, archive, verify, and encrypt their crucial historical records. We are now working with the DACs to improve decentralized storage technologies to better meet their needs.
+- Building responsive tools like our [_****_Save_****_ app](https://open-archive.org/**_Save_**), which helps eyewitnesses share, archive, verify, and encrypt their crucial historical records. We are now working with the DACs to improve decentralized storage technologies to better meet their needs.
 - Developing best practice guides on how to safely capture, verify, and preserve evidence and combat disinformation. 
 <br />
 ### Mapping the Decentralized Archivist Communities’ Contexts, Threats, and Needs
@@ -372,7 +372,7 @@ In these trainings and guides, we share how important it is to create offline ba
 
 **End-to-End Encryption**
 
-Privacy is paramount to the DACs. It is essential that their data is encrypted both in transit and while being stored to protect themselves and their media from unauthorized access and manipulation. For secure data transit, our communities prefer end-to-end encrypted chat apps like Signal, which stores all messages locally on devices and not in a centralized database, retains virtually no user data, is open source (their code is public and can be audited regularly by the communities who use it), removes metadata from media files and also lets users blur faces in media before sharing it. These features reduce the likelihood of malware injections, vulnerabilities, surveillance, and subpoenas from malicious actors for personal user data. While many of the DACs have started using Signal in the last few years, most were using less secure communication channels such as SMS, Snapchat, Telegram, Facebook, and WhatsApp prior to the widespread popularity/network effect of the Signal App. While Signal helps keep these communities safe, it cannot help them verify or preserve their media for long-term access. Since completely end-to-end encrypted archiving solutions are not yet available, we are working to provide a suite of solutions to fill the gaps in the DAC’s archiving needs, such as our secure mobile archiving app Save + encrypted backends like Nextcloud.
+Privacy is paramount to the DACs. It is essential that their data is encrypted both in transit and while being stored to protect themselves and their media from unauthorized access and manipulation. For secure data transit, our communities prefer end-to-end encrypted chat apps like Signal, which stores all messages locally on devices and not in a centralized database, retains virtually no user data, is open source (their code is public and can be audited regularly by the communities who use it), removes metadata from media files and also lets users blur faces in media before sharing it. These features reduce the likelihood of malware injections, vulnerabilities, surveillance, and subpoenas from malicious actors for personal user data. While many of the DACs have started using Signal in the last few years, most were using less secure communication channels such as SMS, Snapchat, Telegram, Facebook, and WhatsApp prior to the widespread popularity/network effect of the Signal App. While Signal helps keep these communities safe, it cannot help them verify or preserve their media for long-term access. Since completely end-to-end encrypted archiving solutions are not yet available, we are working to provide a suite of solutions to fill the gaps in the DAC’s archiving needs, such as our secure mobile archiving app **_Save_** + encrypted backends like Nextcloud.
 
 **Decentralization**
 
@@ -438,6 +438,6 @@ The group decides to take the following measures:
 
 - Delete apps with personal info (e.g., Facebook, Twitter, LinkedIn);
 
-- Have an app like [_**Save**_](https://open-archive.org/save) pre-installed and ready to use to immediately upload media to secure backends after the action through an encrypted connection over mobile data for long-term preservation.
+- Have an app like [_****_Save_****_](https://open-archive.org/**_Save_**) pre-installed and ready to use to immediately upload media to secure backends after the action through an encrypted connection over mobile data for long-term preservation.
 
 </ContentSection>
