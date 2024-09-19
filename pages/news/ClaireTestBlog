@@ -4,7 +4,7 @@ title: TBD
 description: By Natalie Cadranel, Lauren Salim, and Claire August
 date: xx/xx/24
 category: Blogs
-image: Harm_Reduction_For_Historys_First_Responders/1.png
+image: DACCohort1_Header.png
 ---
 
 import { ArticleHeaderSection } from "components/news/ArticleHeaderSection";
@@ -12,7 +12,7 @@ import { ContentSection } from "components/news/ContentSection";
 
 <ArticleHeaderSection>
 
-![](Harm_Reduction_For_Historys_First_Responders/1.png)
+![](DACCohort1_Header.png)
 
 {frontmatter.date}
 
@@ -105,19 +105,19 @@ Commonly identified threats: device confiscation/loss of media; privacy and digi
 
 Our top recommendations: integrating workflow tools like **_Save_** to help manage and preserve their evidence, using VPNs and encrypted messaging apps, investing in resources that boost internet connectivity, and technical training that focuses on digital security. 
 
-![](CohortOneTable_1)
+![](CohortOneTable_1.png)
 
-![](CohortOneTable_2)
+![](CohortOneTable_2.png)
 
-![](CohortOneTable_3)
+![](CohortOneTable_3.png)
 
-![](CohortOneTable_4)
+![](CohortOneTable_4.png)
 
-![](CohortOneTable_5)
+![](CohortOneTable_5.png)
 
-![](CohortOneTable_6)
+![](CohortOneTable_6.png)
 
-![](CohortOneTable_7)
+![](CohortOneTable_7.png)
 
 ---ADD IN BAR GRAPHIC BLACK AND WHITE---
 
