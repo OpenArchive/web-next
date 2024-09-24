@@ -1,56 +1,50 @@
 import { FC, PropsWithChildren } from "react";
-import { Box, Stack } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { colors, breakpoints } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
 
 export const ServeSection: FC<PropsWithChildren> = ({ children }) => {
-  const { lightGrey } = colors;
+  const { white } = colors;
   const { ps, ts } = breakpoints;
-  const [title, subtitle, ...rest] = children as any[];
+  const [title, ...rest] = children as any[];
 
   return (
-    <PageSection backgroundColor={lightGrey}>
+    <PageSection backgroundColor={white}>
       <Box
         sx={{
           h5: {
-            width: "50%",
+            width: "100%",
             mb: 6,
-            [ps]: { width: "100%" },
-            [ts]: { width: "50%" },
           },
         }}
       >
         {title}
-        {subtitle}
       </Box>
-      <Stack
+      <Grid
+        container
+        direction="row"
+        columnSpacing={6}
         sx={{
-          ".serveItem:nth-of-type(even)": {
-            flexDirection: "row-reverse",
-          },
-          ".serveItem:nth-of-type(odd)": {
-            flexDirection: "row",
+          flexDirection: "row",
+          ".serveItem": {
+            width: "50%",
           },
           [ps]: {
-            ".serveItem:nth-of-type(even)": {
-              flexDirection: "column",
-            },
-            ".serveItem:nth-of-type(odd)": {
-              flexDirection: "column",
+            flexDirection: "column",
+            ".serveItem": {
+              width: "100%",
             },
           },
           [ts]: {
-            ".serveItem:nth-of-type(even)": {
-              flexDirection: "row-reverse",
-            },
-            ".serveItem:nth-of-type(odd)": {
-              flexDirection: "row",
+            flexDirection: "row",
+            ".serveItem": {
+              width: "50%",
             },
           },
         }}
       >
         {rest}
-      </Stack>
+      </Grid>
     </PageSection>
   );
 };

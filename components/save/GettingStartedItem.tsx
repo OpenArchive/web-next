@@ -3,7 +3,7 @@ import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints } from "styles/theme";
 
 export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
-  const { body } = typography;
+  const { bodyLarge } = typography;
   const { white } = colors;
   const { ps, tl } = breakpoints;
 
@@ -11,29 +11,31 @@ export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
     <Grid
       item
       flexGrow={1}
-      sx={{ width: "50%", [ps]: { width: "100%" }, [tl]: { width: "50%" } }}
+      sx={{
+        width: "50%",
+        [ps]: {
+          width: "100%",
+        },
+        [tl]: { width: "50%" },
+      }}
     >
       <Grid
         container
         direction="column"
         sx={{
           backgroundColor: white,
-          p: 3,
-          height: "100%",
+          width: "100%",
         }}
       >
-        <Grid container item direction="row" spacing={1} alignItems="center">
-          <Grid item>
-            <Box className="step" />
-          </Grid>
-          <Grid item>
-            <Box component="p" sx={{ ...body }} />
-          </Grid>
-        </Grid>
         <Grid item>
           <Box
             sx={{
-              "& p": { mb: 0 },
+              "& p": {
+                mb: 0,
+                ...bodyLarge,
+                mt: 3,
+                fontSize: "30px !important",
+              },
               ul: {
                 listStyleType: "none",
                 m: 0,
@@ -42,9 +44,9 @@ export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
               },
               "& img": {
                 float: "left !important",
-                height: "60px !important",
-                pt: "15px !important",
-                pr: "5px !important",
+                height: "100px !important",
+                pt: "30px !important",
+                pr: "20px !important",
                 ":hover": {
                   backgroundColor: "transparent !important",
                 },

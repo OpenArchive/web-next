@@ -11,10 +11,9 @@ import saveLogo from "public/images/save-logo.png";
 import saveHand from "public/images/save-hand.png";
 
 export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
-  const [showMore, setShowMore] = useState(false);
   const t = useTranslate();
   const { lightGrey, white } = colors;
-  const { bodyLarge } = typography;
+  const { bodyLarge, body } = typography;
   const { ps, pl, ts, tl, ds, dl } = breakpoints;
   const [title, description, appStoreButtons, ...rest] = children as any[];
 
@@ -106,7 +105,7 @@ export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
                     mb: "60px",
                     "& img": {
                       float: "left !important",
-                      height: "60px !important",
+                      height: "70px !important",
                       pt: "15px !important",
                       pr: "5px !important",
                       ":hover": {
@@ -117,14 +116,6 @@ export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
                 >
                   {appStoreButtons}
                 </Box>
-              </Grid>
-              <Grid item>
-                <OutlinedButton
-                  arrowDirection="down"
-                  onClick={() => setShowMore(!showMore)}
-                >
-                  {t("readMore")}
-                </OutlinedButton>
               </Grid>
             </Grid>
           </Grid>
@@ -146,49 +137,47 @@ export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
           </Grid>
         </Grid>
       </BaseHeaderSection>
-      <Collapse in={showMore}>
-        <PageSection backgroundColor={white}>
+      <PageSection backgroundColor={white}>
+        <Grid
+          container
+          spacing={3}
+          sx={{
+            flexDirection: "row",
+            [ps]: { flexDirection: "column" },
+            [ts]: { flexDirection: "row" },
+          }}
+        >
           <Grid
-            container
-            spacing={3}
+            item
             sx={{
-              flexDirection: "row",
-              [ps]: { flexDirection: "column" },
-              [ts]: { flexDirection: "row" },
+              width: "50%",
+              [ps]: { width: "100%" },
+              [ts]: { width: "50%" },
             }}
           >
-            <Grid
-              item
+            <Box
               sx={{
-                width: "50%",
-                [ps]: { width: "100%" },
-                [ts]: { width: "50%" },
+                width: "100%",
+                height: "100%",
+                backgroundImage: `url(${saveHand.src})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center center",
+                backgroundSize: "cover",
               }}
-            >
-              <Box
-                sx={{
-                  width: "100%",
-                  height: "100%",
-                  backgroundImage: `url(${saveHand.src})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundPosition: "center center",
-                  backgroundSize: "cover",
-                }}
-              />
-            </Grid>
-            <Grid
-              item
-              sx={{
-                width: "50%",
-                [ps]: { width: "100%" },
-                [ts]: { width: "50%" },
-              }}
-            >
-              <Box sx={{ p: 3, "> p": bodyLarge }}>{rest}</Box>
-            </Grid>
+            />
           </Grid>
-        </PageSection>
-      </Collapse>
+          <Grid
+            item
+            sx={{
+              width: "50%",
+              [ps]: { width: "100%" },
+              [ts]: { width: "50%" },
+            }}
+          >
+            <Box sx={{ p: 3, "> p": bodyLarge }}>{rest}</Box>
+          </Grid>
+        </Grid>
+      </PageSection>
     </>
   );
 };
