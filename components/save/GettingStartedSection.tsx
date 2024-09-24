@@ -1,11 +1,10 @@
 import { FC, PropsWithChildren } from "react";
 import { Grid } from "@mui/material";
-import { typography, colors, breakpoints } from "styles/theme";
+import { colors, breakpoints } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
 
 export const GettingStartedSection: FC<PropsWithChildren> = ({ children }) => {
   const { white } = colors;
-  const { bodyLarge } = typography;
   const { ps, tl } = breakpoints;
   const [title, ...rest] = children as any[];
 

@@ -1,12 +1,11 @@
 import { FC, PropsWithChildren } from "react";
 import { Box, Grid } from "@mui/material";
-import { typography, colors, breakpoints } from "styles/theme";
+import { colors, breakpoints } from "styles/theme";
 
 export const CoreFeatureItem: FC<PropsWithChildren> = ({ children }) => {
-  const { bodyLarge } = typography;
-  const { turquoise, white, lightGrey } = colors;
+  const { white, lightGrey } = colors;
   const { ps, tl } = breakpoints;
-  const [image, title, ...description] = children as any[];
+  const [image, title] = children as any[];
 
   return (
     <Grid

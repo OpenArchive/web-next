@@ -1,11 +1,10 @@
 import { FC, PropsWithChildren } from "react";
 import { Grid, Box } from "@mui/material";
-import { colors, typography, breakpoints } from "styles/theme";
+import { colors, typography } from "styles/theme";
 
 export const ServeItem: FC<PropsWithChildren> = ({ children }) => {
   const rest = children as any[];
   const { outlinedButton, bodyLarge } = typography;
-  const { ps, ts } = breakpoints;
   const { turquoise } = colors;
 
   return (

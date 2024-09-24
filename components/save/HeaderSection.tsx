@@ -1,19 +1,16 @@
-import { FC, PropsWithChildren, useState } from "react";
+import { FC, PropsWithChildren } from "react";
 import Image from "next/legacy/image";
-import { Box, Grid, Collapse } from "@mui/material";
-import { useTranslate } from "react-polyglot";
+import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints, loader } from "styles/theme";
 import { HeaderSection as BaseHeaderSection } from "components/common/HeaderSection";
 import { PageSection } from "components/common/PageSection";
-import { OutlinedButton } from "components/common/OutlinedButton";
 import saveHeader from "public/images/Save/Save-top-image.png";
 import saveLogo from "public/images/save-logo.png";
 import saveHand from "public/images/save-hand.png";
 
 export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
-  const t = useTranslate();
   const { lightGrey, white } = colors;
-  const { bodyLarge, body } = typography;
+  const { bodyLarge } = typography;
   const { ps, pl, ts, tl, ds, dl } = breakpoints;
   const [title, description, appStoreButtons, ...rest] = children as any[];
 
