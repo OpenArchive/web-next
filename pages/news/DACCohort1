@@ -2,7 +2,7 @@
 ---
 title: Assessing the Documentation Needs of Human Rights Defenders: Looking Back on OpenArchive’s DAC Cohort One
 description: By Natalie Cadranel, Lauren Salim, and Claire August
-date: xx/xx/24
+date: 26/09/24
 category: Blogs
 image: DACCohort1_Header.png
 ---
@@ -49,7 +49,8 @@ OpenArchive is fortunate to collaborate with inspiring Decentralized Archivist C
 
 and safeguard evidence despite escalating challenges and human rights abuses.
 
----IMAGE OF MAP---
+<iframe title="" aria-label="Map" id="datawrapper-chart-Gx1vz" src="https://datawrapper.dwcdn.net/Gx1vz/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="420" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 ###### Program Structure
 
@@ -99,7 +100,8 @@ We have grouped the key challenges and threats that the communities face into fo
 
 Some areas, like Ukraine, were primarily concerned with technical and resource restraints. In contrast, other places like Cuba and Ecuador were more focused on the physical dangers they experienced in the course of their work. 
 
----ADD IN BAR GRAPHIC TEAL---
+<iframe title="Primary Risks Reported by Participating Archivist Communities" aria-label="Grouped Columns" id="datawrapper-chart-ZZk2P" src="https://datawrapper.dwcdn.net/ZZk2P/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="572" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 Commonly identified threats: device confiscation/loss of media; privacy and digital security; physical security for themselves, work contacts or loved ones, imprisonment, and accessing public information. 
 
@@ -119,8 +121,8 @@ Our top recommendations: integrating workflow tools like **_Save_** to help mana
 
 ![](CohortOneTable_7.png)
 
----ADD IN BAR GRAPHIC BLACK AND WHITE---
-
+<iframe title="Risks in the Field for Archivists" aria-label="Grouped Columns" id="datawrapper-chart-rShVf" src="https://datawrapper.dwcdn.net/rShVf/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="464" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 ##### What’s Next for OpenArchive and the DAC Program
 
