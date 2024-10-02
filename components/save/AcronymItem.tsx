@@ -5,7 +5,7 @@ import { typography, breakpoints, loader } from "styles/theme";
 import { loadImage } from "lib/frontendHelpers";
 
 export const AcronymItem: FC<PropsWithChildren> = ({ children }) => {
-  const { bodyLarge } = typography;
+  const { bodyExtraLarge } = typography;
   const { ps, tl } = breakpoints;
   const [first, title, ...description] = children as any[];
   const image = loadImage(first);
@@ -36,7 +36,7 @@ export const AcronymItem: FC<PropsWithChildren> = ({ children }) => {
           <Grid item>
             <Box
               sx={{
-                "> p": bodyLarge,
+                "> p": bodyExtraLarge,
               }}
             >
               {description}

@@ -4,10 +4,10 @@ import { PageSection } from "components/common/PageSection";
 import { HorizontalCarousel } from "components/common/HorizontalCarousel";
 
 export const AcronymSection: FC<PropsWithChildren> = ({ children }) => {
-  const { lightGrey } = colors;
+  const { white } = colors;
 
   return (
-    <PageSection backgroundColor={lightGrey} sx={{ pb: 0 }}>
+    <PageSection backgroundColor={white} sx={{ pb: 0 }}>
       <HorizontalCarousel
         visibleCount={1}
         autoplay

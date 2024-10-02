@@ -3,7 +3,7 @@ import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints } from "styles/theme";
 
 export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
-  const { bodyLarge } = typography;
+  const { bodyExtraLarge } = typography;
   const { white } = colors;
   const { ps, tl } = breakpoints;
 
@@ -32,9 +32,8 @@ export const GettingStartedItem: FC<PropsWithChildren> = ({ children }) => {
             sx={{
               "& p": {
                 mb: 0,
-                ...bodyLarge,
+                ...bodyExtraLarge,
                 mt: 3,
-                fontSize: "30px !important",
               },
               ul: {
                 listStyleType: "none",

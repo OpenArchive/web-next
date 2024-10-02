@@ -1,14 +1,25 @@
 import { FC, PropsWithChildren } from "react";
 import { Grid, Box } from "@mui/material";
-import { colors, typography } from "styles/theme";
+import { colors, typography, breakpoints } from "styles/theme";
 
 export const ServeItem: FC<PropsWithChildren> = ({ children }) => {
   const rest = children as any[];
-  const { outlinedButton, bodyLarge } = typography;
+  const { outlinedButton, bodyExtraLarge } = typography;
   const { turquoise } = colors;
+  const { ps, tl } = breakpoints;
 
   return (
-    <Grid item container justifyContent="space-around" className="serveItem">
+    <Grid
+      item
+      container
+      justifyContent="space-around"
+      className="serveItem"
+      sx={{
+        width: "50%",
+        [ps]: { width: "100%" },
+        [tl]: { width: "50%" },
+      }}
+    >
       <Grid
         item
         sx={{
@@ -19,7 +30,7 @@ export const ServeItem: FC<PropsWithChildren> = ({ children }) => {
           sx={{
             a: outlinedButton,
             ul: { p: 0, pl: 3 },
-            "& p": { ...bodyLarge, fontSize: "26px !important" },
+            "& p": { ...bodyExtraLarge },
             li: { pb: 3 },
             "li::marker": {
               color: turquoise,
