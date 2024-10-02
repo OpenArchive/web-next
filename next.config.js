@@ -27,6 +27,7 @@ const config = withMDX({
   compiler: {
     emotion: true,
   },
+  output: "export",
   pageExtensions: ["ts", "tsx", "mdx"],
   async redirects() {
     return [
