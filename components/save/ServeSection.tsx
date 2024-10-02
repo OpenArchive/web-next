@@ -1,56 +1,59 @@
 import { FC, PropsWithChildren } from "react";
-import { Box, Stack } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { colors, breakpoints } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
+import { loadImage } from "lib/frontendHelpers";
 
 export const ServeSection: FC<PropsWithChildren> = ({ children }) => {
-  const { lightGrey } = colors;
-  const { ps, ts } = breakpoints;
-  const [title, subtitle, ...rest] = children as any[];
+  const { white } = colors;
+  const { ps, tl } = breakpoints;
+  const [title, rawImage, description, ...rest] = children as any[];
+  const image = loadImage(rawImage);
 
   return (
-    <PageSection backgroundColor={lightGrey}>
-      <Box
+    <PageSection backgroundColor={white}>
+      <Grid container direction="column">
+        <Grid item>
+          <Box
+            sx={{
+              h5: {
+                width: "100%",
+                mb: 6,
+              },
+            }}
+          >
+            {title}
+          </Box>
+        </Grid>
+        <Grid item>
+          <Box
+            sx={{
+              height: "300px",
+              width: "100%",
+              backgroundImage: `url(${image.src})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              p: 3,
+              mb: 4,
+            }}
+          />
+        </Grid>
+        <Grid item>{description}</Grid>
+      </Grid>
+      <Grid
+        container
+        direction="column"
+        columnSpacing={6}
         sx={{
-          h5: {
-            width: "50%",
-            mb: 6,
-            [ps]: { width: "100%" },
-            [ts]: { width: "50%" },
-          },
-        }}
-      >
-        {title}
-        {subtitle}
-      </Box>
-      <Stack
-        sx={{
-          ".serveItem:nth-of-type(even)": {
-            flexDirection: "row-reverse",
-          },
-          ".serveItem:nth-of-type(odd)": {
-            flexDirection: "row",
-          },
-          [ps]: {
-            ".serveItem:nth-of-type(even)": {
-              flexDirection: "column",
-            },
-            ".serveItem:nth-of-type(odd)": {
-              flexDirection: "column",
-            },
-          },
-          [ts]: {
-            ".serveItem:nth-of-type(even)": {
-              flexDirection: "row-reverse",
-            },
-            ".serveItem:nth-of-type(odd)": {
-              flexDirection: "row",
-            },
-          },
+          width: "100%",
+          flexDirection: "row",
+          [ps]: { flexDirection: "column" },
+          [tl]: { flexDirection: "row" },
         }}
       >
         {rest}
-      </Stack>
+      </Grid>
     </PageSection>
   );
 };

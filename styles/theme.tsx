@@ -203,6 +203,36 @@ export const typography = {
   p: {
     ...typographyDefaults,
   },
+  bodyExtraLarge: {
+    ...typographyDefaults,
+    fontFamily: "Montserrat, sans-serif",
+    fontWeight: 400,
+    fontSize: "28px",
+    lineHeight: "150%",
+    mb: 3,
+    [breakpoints.ps]: {
+      fontSize: "19px",
+    },
+    [breakpoints.pl]: {
+      fontSize: "19px",
+    },
+    [breakpoints.ts]: {
+      fontSize: "22px",
+    },
+    [breakpoints.tl]: {
+      fontSize: "22px",
+    },
+    [breakpoints.ds]: {
+      fontSize: "25px",
+    },
+    [breakpoints.dl]: {
+      fontSize: "28px",
+    },
+    "& em > strong": {
+      fontWeight: 700,
+      color: colors.turquoise,
+    },
+  },
   bodyLarge: {
     ...typographyDefaults,
     fontFamily: "Montserrat, sans-serif",

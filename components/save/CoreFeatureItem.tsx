@@ -1,71 +1,82 @@
 import { FC, PropsWithChildren } from "react";
 import { Box, Grid } from "@mui/material";
-import { typography, colors } from "styles/theme";
+import { colors, breakpoints } from "styles/theme";
 
 export const CoreFeatureItem: FC<PropsWithChildren> = ({ children }) => {
-  const { bodyLarge } = typography;
-  const { lightGrey, turquoise, white } = colors;
-  const [image, title, ...description] = children as any[];
+  const { white, lightGrey } = colors;
+  const { ps, tl } = breakpoints;
+  const [image, title] = children as any[];
 
   return (
-    <Box
+    <Grid
+      item
       sx={{
-        height: "470px",
-        backgroundColor: lightGrey,
-        width: "100%",
-        "&:hover .slide": {
-          transition: "0.5s",
-          bottom: "0px",
-        },
-        position: "relative",
-        overflow: "hidden",
+        color: white,
+        width: "50%",
+        [ps]: { width: "100%" },
+        [tl]: { width: "50%" },
       }}
     >
-      <Grid
-        container
-        direction="column"
-        justifyContent="space-around"
-        sx={{ width: "100%" }}
-      >
-        <Grid item sx={{ width: "100%" }}>
-          <Box sx={{ p: 6, pb: 0, width: "100%" }}>
-            {image}
-            {title}
-          </Box>
-        </Grid>
-      </Grid>
       <Box
-        className="slide"
         sx={{
+          backgroundColor: lightGrey,
           width: "100%",
-          backgroundColor: turquoise,
-          color: white,
-          height: "470px",
-          position: "absolute",
-          bottom: "-470px",
-          transition: "1.5s",
+          "&:hover .slide": {
+            transition: "0.5s",
+            bottom: "0px",
+          },
+          position: "relative",
+          //          overflow: "hidden",
         }}
       >
-        <Box
+        <Grid
+          container
+          direction="column"
+          justifyContent="space-around"
+          sx={{ width: "100%" }}
+        >
+          <Grid container item sx={{ width: "100%" }}>
+            <Grid item xs={1.5}>
+              <Box sx={{ width: "50px" }}>{image}</Box>
+            </Grid>
+            <Grid item xs={10.5} sx={{ pt: "4px" }}>
+              {title}
+            </Grid>
+          </Grid>
+        </Grid>
+        {/*        <Box
+          className="slide"
           sx={{
-            "> p": {
-              ...bodyLarge,
-              color: white,
-              "& em > strong": {
-                color: white,
-              },
-              p: 4,
-              m: 0,
-            },
-            a: {
-              textDecoration: "underline",
-              textDecorationStyle: "dashed",
-            },
+            width: "100%",
+            backgroundColor: turquoise,
+            color: white,
+            height: "370px",
+            position: "absolute",
+            bottom: "-470px",
+            transition: "1.5s",
           }}
         >
-          {description}
-        </Box>
+          <Box
+            sx={{
+              "> p": {
+                ...bodyLarge,
+                color: white,
+                "& em > strong": {
+                  color: white,
+                },
+                p: 4,
+                m: 0,
+              },
+              a: {
+                textDecoration: "underline",
+                textDecorationStyle: "dashed",
+              },
+            }}
+          >
+            {description}
+          </Box>
+          </Box> */}
       </Box>
-    </Box>
+    </Grid>
   );
 };

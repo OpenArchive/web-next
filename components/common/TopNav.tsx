@@ -21,7 +21,7 @@ const MenuButton = dynamic(
   () => import("components/common/MenuButton").then((mod) => mod.MenuButton),
   {
     ssr: false,
-  }
+  },
 );
 
 export const TopNav = () => {
@@ -48,7 +48,6 @@ export const TopNav = () => {
       backgroundColor: white,
     },
   };
-  const getAnchorRef = () => ref.current;
 
   return (
     <AppBar
@@ -182,12 +181,13 @@ export const TopNav = () => {
                       },
                     }}
                   >
-                    <MenuButton
-                      title={t("ourWork")}
-                      anchorEl={getAnchorRef}
-                      href="/save"
-                    >
-                      <Grid container direction="column" spacing={0}>
+                    <MenuButton title={t("ourWork")} href="/save">
+                      <Grid
+                        container
+                        direction="column"
+                        spacing={0}
+                        sx={{ background: turquoise, width: 200 }}
+                      >
                         <Grid item>
                           <Link href="/save">
                             <Box sx={menuItemProps}>{t("saveApp")}</Box>
@@ -227,12 +227,13 @@ export const TopNav = () => {
                       },
                     }}
                   >
-                    <MenuButton
-                      title={t("about")}
-                      anchorEl={getAnchorRef}
-                      href="/about"
-                    >
-                      <Grid container direction="column" spacing={0}>
+                    <MenuButton title={t("about")} href="/about">
+                      <Grid
+                        container
+                        direction="column"
+                        spacing={0}
+                        sx={{ background: turquoise }}
+                      >
                         <Grid item>
                           <Link href="/about">
                             <Box sx={menuItemProps}>{t("aboutUs")}</Box>
@@ -278,11 +279,7 @@ export const TopNav = () => {
                       },
                     }}
                   >
-                    <MenuButton
-                      title={t("news")}
-                      anchorEl={getAnchorRef}
-                      href="/news"
-                    />
+                    <MenuButton title={t("news")} href="/news" />
                   </Grid>
                   <Grid
                     item

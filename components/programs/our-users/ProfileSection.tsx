@@ -14,7 +14,7 @@ export const ProfileSection: FC<PropsWithChildren> = ({ children }) => {
   const [first, name, stats, quote, ...details] = children as any[];
   const image = loadImage(first);
   const hasQuote =
-    quote?.props?.children?.join("").replace(/[\n ]+/g, "") !== "" ?? false;
+    quote?.props?.children?.join("").replace(/[\n ]+/g, "") !== "";
 
   return (
     <>

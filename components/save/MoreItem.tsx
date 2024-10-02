@@ -7,7 +7,7 @@ import { loadImage, getURL } from "lib/frontendHelpers";
 import rightArrow from "public/images/right-arrow.svg";
 
 export const MoreItem: FC<PropsWithChildren> = ({ children }) => {
-  const { lightGrey, turquoise } = colors;
+  const { white, turquoise } = colors;
   const { ps, tl } = breakpoints;
   const [first, title, last] = children as any[];
   const image = loadImage(first);
@@ -33,10 +33,10 @@ export const MoreItem: FC<PropsWithChildren> = ({ children }) => {
       }}
     >
       <Link href={url}>
-        <Grid container direction="column" sx={{ backgroundColor: lightGrey }}>
+        <Grid container direction="column" sx={{ backgroundColor: white }}>
           <Grid item container direction="row" justifyContent="space-between">
             <Grid item>
-              <Box sx={{ width: "100%", backgroundColor: lightGrey, p: 3 }}>
+              <Box sx={{ width: "100%", backgroundColor: white, p: 3 }}>
                 {title}
               </Box>
             </Grid>
