@@ -61,6 +61,12 @@
     "title": "Technology Manager",
     "description": "OpenArchive seeks a Technology Manager to write technical documentation, support code, and manage our overall technical effort, including supporting the Technology Director’s work to develop and implement our secure mobile archiving app."
   },
+  "/news/DACCohort1": {
+    "path": "/news/DACCohort1",
+    "title": "Assessing the Documentation Needs of Human Rights Defenders - Looking Back on OpenArchive’s DAC Cohort One",
+    "description": "By Natalie Cadranel, Lauren Salim, and Claire August",
+    "image": "DACFinalBlog/DACCohort1_Header.png"
+  },
   "/news/IraqiNetwork-partnership": {
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",
