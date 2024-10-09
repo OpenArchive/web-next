@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 import { Box, Grid } from "@mui/material";
 import { typography, colors, breakpoints, loader } from "styles/theme";
 import { HeaderSection as BaseHeaderSection } from "components/common/HeaderSection";
-import saveHeader from "public/images/Save/Save-top-image.png";
+import saveHeader from "public/images/Save/Save-top-image-updated.png";
 import saveLogo from "public/images/save-logo.png";
 
 export const HeaderSection: FC<PropsWithChildren> = ({ children }) => {
