@@ -15,6 +15,7 @@ import forward from "public/images/forward.svg";
 const SlideNavigation = () => {
   const swiper = useSwiper();
   const { mediumGrey } = colors;
+  const buttonSize = 60;
 
   return (
     <Box
@@ -27,10 +28,22 @@ const SlideNavigation = () => {
       <Grid container direction="row" spacing={3} alignItems="center">
         <Grid item>
           <Button onClick={() => swiper.slidePrev()}>
-            <Image src={back} alt="Previous slide" loader={loader} />
+            <Image
+              src={back}
+              alt="Previous slide"
+              loader={loader}
+              width={buttonSize}
+              height={buttonSize}
+            />
           </Button>
           <Button onClick={() => swiper.slideNext()}>
-            <Image src={forward} alt="Next slide" loader={loader} />
+            <Image
+              src={forward}
+              alt="Next slide"
+              loader={loader}
+              width={buttonSize}
+              height={buttonSize}
+            />
           </Button>
         </Grid>
         <Grid item flexGrow={1}>
@@ -80,7 +93,7 @@ export const HorizontalCarousel: FC<HorizontalCarouselProps> = ({
         }}
       >
         <Swiper
-          modules={[A11y, Autoplay, Keyboard, Mousewheel, EffectFade]}
+          modules={[A11y, Autoplay, Keyboard, EffectFade]}
           autoplay={
             autoplay ? { delay: 4000, disableOnInteraction: true } : false
           }

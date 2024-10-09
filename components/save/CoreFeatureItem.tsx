@@ -39,7 +39,14 @@ export const CoreFeatureItem: FC<PropsWithChildren> = ({ children }) => {
             <Grid item xs={1.5}>
               <Box sx={{ width: "50px" }}>{image}</Box>
             </Grid>
-            <Grid item xs={10.5} sx={{ pt: "4px" }}>
+            <Grid
+              item
+              xs={10.5}
+              sx={{
+                pt: "4px",
+                "> h5": { fontWeight: 600 },
+              }}
+            >
               {title}
             </Grid>
           </Grid>
