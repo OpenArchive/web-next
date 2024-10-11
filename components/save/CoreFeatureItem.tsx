@@ -46,15 +46,24 @@ export const CoreFeatureItem: FC<PropsWithChildren> = ({ children }) => {
           justifyContent="space-around"
           sx={{ width: "100%" }}
         >
-          <Grid container item sx={{ width: "100%", pt: 2, pl: 4 }}>
-            <Grid item xs={1.5}>
+          <Grid
+            container
+            item
+            sx={{
+              width: "100%",
+              pt: 2,
+              pl: 4,
+            }}
+          >
+            <Grid item xs={3} sm={1.5}>
               <Box className="image" sx={{ width: "50px", borderRadius: 2 }}>
                 {image}
               </Box>
             </Grid>
             <Grid
               item
-              xs={10.5}
+              xs={9}
+              sm={10.5}
               sx={{
                 pt: "8px",
                 "> h5": { fontWeight: 600 },

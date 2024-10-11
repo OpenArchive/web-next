@@ -45,6 +45,7 @@ export const ServeSection: FC<PropsWithChildren> = ({ children }) => {
         container
         direction="column"
         columnSpacing={6}
+        rowSpacing={0}
         sx={{
           width: "100%",
           flexDirection: "row",
