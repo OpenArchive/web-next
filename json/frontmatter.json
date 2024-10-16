@@ -24,7 +24,7 @@
     "path": "/guides/ethical-citizen-reporting",
     "title": "OpenArchive’s guide to ethical citizen reporting",
     "description": "Harm reduction tools for citizen journalists",
-    "image": "Guides/ethical-citizen-reporting.png"
+    "image": "Guides/ethical-citizen-reporting-list.png"
   },
   "/guides": {
     "path": "/guides"
@@ -33,13 +33,13 @@
     "path": "/guides/preserving-truth",
     "title": "Preserving Truth to Power Guide",
     "description": "Learn how to ethically and safely store sensitive mobile media",
-    "image": "Guides/preserving-truth.jpeg"
+    "image": "Guides/preserving-truth-list.png"
   },
   "/guides/protest-survival": {
     "path": "/guides/protest-survival",
     "title": "OpenArchive’s U.S. Protest Survival Guide",
     "description": "Harm reduction for documenting protests",
-    "image": "Guides/protest-survival.jpeg"
+    "image": "Guides/protest-survival-list.png"
   },
   "/guides/ukraine-media-guide": {
     "path": "/guides/ukraine-media-guide",
@@ -71,7 +71,7 @@
     "path": "/news/IraqiNetwork-partnership",
     "title": "OpenArchive Partners with the Iraqi Network for Social Media",
     "description": "OpenArchive is partnering with digital rights defenders in Iraq to strengthen archiving efforts and workflows in the region.",
-    "image": "iraq-blog.jpeg"
+    "image": "iraq-blog-list.png"
   },
   "/news/KHPG-partnership": {
     "path": "/news/KHPG-partnership",
@@ -83,7 +83,7 @@
     "path": "/news/LatAm-Partnership",
     "title": "OpenArchive Launches New Partnerships in Latin America with Cubalex and ALDEA Foundation",
     "description": "OpenArchive is partnering with two human rights organizations in Latin America to strengthen archiving efforts and workflows in the region.",
-    "image": "LatAmPressRelease/1.png"
+    "image": "LatAmPressRelease/list.png"
   },
   "/news/archiving-forward-part-2": {
     "path": "/news/archiving-forward-part-2",
@@ -101,7 +101,7 @@
     "path": "/news/congress-privacy-bill",
     "title": "What you need to know about the United States’ latest privacy bill",
     "description": "A federal privacy bill may give Americans more control over their data but does not go far enough and would weaken existing state protections.",
-    "image": "usprivacybill.jpeg"
+    "image": "usprivacybill-list.png"
   },
   "/news/digital-impact-podcast": {
     "path": "/news/digital-impact-podcast",
@@ -152,43 +152,43 @@
     "path": "/news/mapping-the-decentralized-storage-ecosystem",
     "title": "Mapping the Decentralized Storage Ecosystem",
     "description": "What truly defines a storage system as decentralized, beyond data distribution, is the underlying principle that the computers hosting the data are controlled by different entities and that no single entity exercises full control.",
-    "image": "Mapping_the_Decentralized_Storage_Ecosystem/1.2.png"
+    "image": "Mapping_the_Decentralized_Storage_Ecosystem/list.png"
   },
   "/news/memo-from-Quito-es": {
     "path": "/news/memo-from-Quito-es",
     "title": "Memo desde Quito: Entendiendo las necesidades de las comunidades documentadoras de Ecuador",
     "description": "Las personas defensoras de los derechos humanos en Ecuador enfrentan crecientes amenazas por su trabajo en la lucha contra los abusos de las operaciones mineras. Nuestra reciente evaluación de necesidades con la Asociación Latinoamericana para el Desarrollo Alternativo (ALDEA) ofrece información sobre las realidades, desafíos y oportunidades que enfrentan estos defensores de derechos humanos en Ecuador mientras documentan y archivan evidencia de injusticia.",
-    "image": "ALDEA_Needs_Assessment.png"
+    "image": "ALDEA-Needs-Assessment-list.png"
   },
   "/news/memo-from-Quito": {
     "path": "/news/memo-from-Quito",
     "title": "Memo from Quito: Understanding the Needs of Ecuador’s Documenter Communities",
     "description": "Ecuadorian human rights defenders face increasing threats for their work combatting abuses by mining operations. Our recent needs assessment with the Latin American Association for Alternative Development (ALDEA) offers insight into the realities, challenges, and opportunities that these human rights defenders in Ecuador face while documenting and archiving evidence of injustice.",
-    "image": "ALDEA_Needs_Assessment.png"
+    "image": "ALDEA-Needs-Assessment-list.png"
   },
   "/news/memo-from-baghdad": {
     "path": "/news/memo-from-baghdad",
     "title": "Memo from Baghdad: Identifying and Addressing the Needs of Iraqi Documenters",
     "description": "In a moment when free speech is under direct threat in Iraq, our recent needs assessment with the Iraqi Network for Social Media (INSM-Iraq) offers an insightful glimpse into the realities, challenges, and opportunities that Iraq human rights defenders are facing as they document and archive evidence of injustice.",
-    "image": "INSMBlog/1.png"
+    "image": "INSMBlog/list.png"
   },
   "/news/memo-from-havana-es": {
     "path": "/news/memo-from-havana-es",
     "title": "Memo desde Havana: Examinando las necesidades de las comunidades de documentalistas trabajando en Cuba",
     "description": "Quienes defienden los derechos humanos en Cuba enfrentan amenazas crecientes por documentar la represión y violencia del gobierno. Nuestra reciente evaluación de necesidades con Cubalex ofrece una perspectiva de las realidades, desafíos y oportunidades que las personas defensoras de derechos humanos enfrentan en el contexto cubano al documentar y archivar evidencias de injusticias.",
-    "image": "CubalexBlog/1.png"
+    "image": "CubalexBlog/list.png"
   },
   "/news/memo-from-havana": {
     "path": "/news/memo-from-havana",
     "title": "Memo from Havana: Examining the needs of documenter communities working in Cuba",
     "description": "Cuban human rights defenders face increasing threats for documenting government repression and violence. Our recent needs assessment with Cubalex offers insight into the realities, challenges, and opportunities that human rights defenders in the Cuban context face while documenting and archiving evidence of injustice.",
-    "image": "CubalexBlog/1.png"
+    "image": "CubalexBlog/list.png"
   },
   "/news/memo-from-kharkiv": {
     "path": "/news/memo-from-kharkiv",
     "title": "Memo from Kharkiv: mapping the realities of Ukrainian documenter communities",
     "description": "Our recent needs assessment offers an insightful glimpse into the realities, challenges, and opportunities that Ukrainian human rights defenders are facing in their efforts to document and expose war crimes.",
-    "image": "KHPGBlog/1.jpg"
+    "image": "KHPGBlog/list.png"
   },
   "/news/memo-from-khartoum": {
     "path": "/news/memo-from-khartoum",
@@ -200,19 +200,19 @@
     "path": "/news/memo-from-mexico-es",
     "title": "Memo desde Ciudad de México:  Examinando las necesidades de las comunidades de documentalistas trabajando en México",
     "description": "Quienes defienden los derechos humanos en México enfrentan amenazas crecientes al documentar abusos a los derechos humanos en el país. Nuestra reciente evaluación de necesidades con Data Cívica brinda información sobre las realidades, desafíos y oportunidades que enfrentan defensora de derechos humanos, periodistas y testigos en México al documentar y archivar evidencia de violencia e injusticia.",
-    "image": "MemoFromMexico/1-es.png"
+    "image": "MemoFromMexico/list.png"
   },
   "/news/memo-from-mexico": {
     "path": "/news/memo-from-mexico",
     "title": "Memo from Mexico City: Examining the needs of documenter communities working in Mexico",
     "description": "Mexican human rights defenders face increasing threats for documenting human rights abuses in the country. Our recent needs assessment with Data Cívica offers insight into the realities, challenges, and opportunities faced by human rights defenders, journalists, and eyewitnesses in Mexico while documenting and archiving evidence of violence and injustice.",
-    "image": "MemoFromMexico/1.png"
+    "image": "MemoFromMexico/list.png"
   },
   "/news/pttp-resistance-in-myanmar": {
     "path": "/news/pttp-resistance-in-myanmar",
     "title": "Preserving Truth to Power - Sustaining resistance in Myanmar",
     "description": "After a military coup in early 2021, civilians against the junta are capturing, archiving, and maintaining a movement.",
-    "image": "Sustaining-resistance-in-Myanmar.png"
+    "image": "Sustaining-resistance-in-Myanmar-list.png"
   },
   "/news/save-press-release": {
     "path": "/news/save-press-release",
@@ -224,7 +224,7 @@
     "path": "/news/save-security-audit",
     "title": "OTF & Trail of Bits’ Independent Security Audit of Save",
     "description": "Through support from the Open Tech Fund's (OTF) Red Team Lab, OpenArchive successfully completed a third-party security audit conducted by Trail of Bits.",
-    "image": "save-security-audit.png"
+    "image": "save-security-audit-list.png"
   },
   "/partner": {
     "path": "/partner"
