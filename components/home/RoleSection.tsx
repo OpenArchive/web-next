@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from "react";
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import { colors, breakpoints } from "styles/theme";
 import { PageSection } from "components/common/PageSection";
 
@@ -11,9 +11,7 @@ export const RoleSection: FC<PropsWithChildren> = ({ children }) => {
   return (
     <PageSection backgroundColor={white}>
       <Grid container direction="column">
-        <Grid item sx={{ textAlign: "center" }}>
-          <Box sx={{ h2: { mb: 2 } }}>{title}</Box>
-        </Grid>
+        <Grid item sx={{ textAlign: "center" }}>{title}</Grid>
         <Grid
           item
           container
