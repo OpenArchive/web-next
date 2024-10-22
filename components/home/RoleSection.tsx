@@ -7,7 +7,7 @@ export const RoleSection: FC<PropsWithChildren> = ({ children }) => {
   const { bodyLarge } = typography;
   const { white } = colors;
   const { ps, ts } = breakpoints;
-  const [title, description, item1, item2, item3] = children as any[];
+  const [title, item1, item2, item3] = children as any[];
 
   return (
     <PageSection backgroundColor={white}>
@@ -28,7 +28,6 @@ export const RoleSection: FC<PropsWithChildren> = ({ children }) => {
               maxWidth: 700,
             }}
           >
-            {description}
           </Box>
         </Grid>
         <Grid
